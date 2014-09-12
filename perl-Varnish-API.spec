@@ -49,7 +49,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorarch}/Varnish/*.pm
 %dir %{perl_vendorarch}/auto/Varnish/API
-%{perl_vendorarch}/auto/Varnish/API/*.bs
 %{perl_vendorarch}/auto/Varnish/API/autosplit.ix
 %attr(755,root,root) %{perl_vendorarch}/auto/Varnish/API/*.so
 %{_mandir}/man3/*
