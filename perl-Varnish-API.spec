@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests		# perform testing. needs running varnishd
 
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Varnish
 %define		pnam	API
 Summary:	Varnish::API - Perl extension for accessing varnish stats and logs
